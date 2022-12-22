@@ -4,4 +4,4 @@
   become_user: root
   tasks:
   - name: oppgarder
-    job: pihole -up
+    apt: update && pihole -up
