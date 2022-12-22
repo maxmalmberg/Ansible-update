@@ -3,4 +3,5 @@
   become: true
   become_user: root
   tasks:
-  - pihole -up
+  - name: oppgarder
+    sudo apt update: pihole -up
