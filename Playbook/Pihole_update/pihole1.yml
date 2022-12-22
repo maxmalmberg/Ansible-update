@@ -4,4 +4,4 @@
   become_user: root
   tasks:
   - name: Update pi-hole
-    update: pihole -up
+    apt-get: pihole -up
