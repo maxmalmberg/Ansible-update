@@ -3,4 +3,5 @@
   become: true
   become_user: root
   tasks:
-    pihole -up
+  - name: Update pi-hole
+    update: pihole -up
