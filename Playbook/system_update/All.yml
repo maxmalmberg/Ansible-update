@@ -1,5 +1,5 @@
 ---
-- hosts: hosts_update
+- hosts: update_linux, 192.168.3.40
   become: true
   become_user: root
   tasks:
