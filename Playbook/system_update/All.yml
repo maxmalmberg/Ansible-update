@@ -1,5 +1,5 @@
 ---
-- hosts: update_linux
+- hosts: update
   become: true
   become_user: root
   tasks:
