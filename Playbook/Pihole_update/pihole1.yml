@@ -5,6 +5,3 @@
   tasks:
   - name: update pihole
     command: pihole -up
-    
-  - name: gravity-sync
-    command: gravity-sync
