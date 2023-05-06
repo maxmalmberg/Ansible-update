@@ -4,4 +4,4 @@
   become_user: root
   tasks:
   - name: update pihole
-    command: pihole -up
+    command: pihole -up && gravity-sync
